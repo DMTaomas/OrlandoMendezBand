@@ -30,6 +30,54 @@
       
   }
 
-  img {
-      
+.fa-facebook{
+  color: blue;
+}
+
+.fa-instagram{
+  color: brown;
+}
+
+.fa-youtube{
+  color: red;
+}
+ /* .fa {
+    padding: 15px;
+    font-size: 50px;
+    color: black;
+  } */
+
+
+  /* Icons */
+  .fa:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
   }
+
+  /* About us */
+
+  .fixed-bg {
+    background-image: url("Photo-By-Caz-0111.jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  /* Cards */
+
+  .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
